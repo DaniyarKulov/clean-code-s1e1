@@ -38,7 +38,7 @@ body {
 	flex-grow: 1
 }
 
-.tasks-block__wrapper {
+.tasks-block__wrap {
 	display: flex;
 }
 
@@ -140,13 +140,13 @@ li>input[type="text"] {
 	width: 226px
 }
 
-button.tasks-block__delete img {
+button.tasks-block__del img {
 	height: 2em;
 	transform: rotateZ(45deg);
 	transition: transform 200ms ease-in;
 }
 
-button.tasks-block__delete img:hover {
+button.tasks-block__del img:hover {
 	transform: rotateZ(0);
 }
 
