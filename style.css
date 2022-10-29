@@ -49,11 +49,14 @@
   padding: 0px;
 }
 
-.tasks-block__list-item,.tasks-block__header {
+.tasks-block__list-item,
+.tasks-block__header {
   list-style: none;
 }
 
-.tasks-block__input,.tasks-block__checkbox,.page__btn {
+.tasks-block__input,
+.tasks-block__checkbox,
+.page__btn {
   outline: none;
 }
 
