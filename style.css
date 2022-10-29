@@ -114,7 +114,7 @@ input[type="text"] {
 }
 
 /* Task list */
-.tasks-block__list-item {
+.tasks-block__list_item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -123,22 +123,22 @@ input[type="text"] {
   align-items: center;
 }
 
-.tasks-block__list-item>* {
+.tasks-block__list_item>* {
   vertical-align: middle;
 }
 
-.tasks-block__list-item>.tasks-block__checkbox {
+.tasks-block__list_item>.tasks-block__checkbox {
   margin: 0 10px;
 }
 
-.tasks-block__list-item>.tasks-block__label {
+.tasks-block__list_item>.tasks-block__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.tasks-block__list-item>.tasks-block__input {
+.tasks-block__list_item>.tasks-block__input {
   width: 226px;
 }
 
@@ -158,15 +158,15 @@ input[type="text"] {
 }
 
 /* Edit Task */
-.tasks-block__list .tasks-block__list-item .tasks-block__input {
+.tasks-block__list .tasks-block__list_item .tasks-block__input {
   display: none
 }
 
-.tasks-block__list .tasks-block__list-item.tasks-block__edit .tasks-block__input {
+.tasks-block__list .tasks-block__list_item.tasks-block__edit .tasks-block__input {
   display: inline-block;
   width: 224px
 }
 
-.tasks-block__list .tasks-block__list-item .tasks-block__edit .tasks-block__label {
+.tasks-block__list .tasks-block__list_item .tasks-block__edit .tasks-block__label {
   display: none;
 }
