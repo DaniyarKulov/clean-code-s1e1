@@ -100,7 +100,7 @@ input[type="text"] {
 }
 
 .tasks-block__input[type="text"]:focus {
-  color: #333
+  color: #333;
 }
 
 /* New Task */
@@ -110,7 +110,7 @@ input[type="text"] {
 }
 
 .tasks-block__input {
-  width: 318px
+  width: 318px;
 }
 
 /* Task list */
@@ -124,11 +124,11 @@ input[type="text"] {
 }
 
 .tasks-block__list-item>* {
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .tasks-block__list-item>.tasks-block__checkbox {
-  margin: 0 10px
+  margin: 0 10px;
 }
 
 .tasks-block__list-item>.tasks-block__label {
@@ -139,7 +139,7 @@ input[type="text"] {
 }
 
 .tasks-block__list-item>.tasks-block__input {
-  width: 226px
+  width: 226px;
 }
 
 .page__btn.tasks-block__del .tasks-block__img {
